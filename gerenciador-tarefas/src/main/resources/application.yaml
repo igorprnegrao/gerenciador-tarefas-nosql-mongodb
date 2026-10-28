@@ -2,8 +2,5 @@ spring:
   application:
     name: gerenciador-tarefas
 
-  data:
-    mongodb:
-      uri: mongodb://localhost:27018/taskmanager
-      username: admin
-      password: admin
+  mongodb:
+    uri: mongodb://root:example@localhost:27018/taskmanager?authSource=admin

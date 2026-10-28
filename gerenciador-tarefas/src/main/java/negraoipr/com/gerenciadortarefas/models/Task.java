@@ -27,4 +27,6 @@ public class Task implements Serializable {
 
     private String description;
 
+    private Boolean completed;
+
 }
